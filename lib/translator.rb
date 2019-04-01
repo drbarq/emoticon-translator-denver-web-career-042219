@@ -21,9 +21,11 @@ end
 def get_japanese_emoticon(file_destination, emoticon)
   emoticon_format = load_library(file_destination)
 
-  emoticon_format.find do |
+  emoticon_format.find do |k, v|
+binding.pry
+  end
 
-#binding.pry
+#
 
   # code goes here
 end
