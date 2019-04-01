@@ -17,6 +17,23 @@ def load_library(file_destination)
 
   emoticon_format
 end
+=begin
+def get_japanese_emoticon(file_destination, emoticon)
+  emoticon_format = load_library(file_destination)
+  sorry = "Sorry, that emoticon was not found"
+
+  emoticon_format.each do |key, hash| # I dont like these if statments, should be using find
+    if key == "get_emoticon"
+    hash.each do |k, v|
+       if k == emoticon
+         return v
+       end
+    end
+    end
+  end
+return sorry
+end
+=end
 
 def get_japanese_emoticon(file_destination, emoticon)
   emoticon_format = load_library(file_destination)
@@ -33,6 +50,8 @@ def get_japanese_emoticon(file_destination, emoticon)
   end
 return sorry
 end
+
+
 
 def get_english_meaning
   # code goes here
