@@ -15,7 +15,7 @@ def load_library(file_destination)
     emoticons.each do |japanese, english|
     binding.pry
 
-  end 
+  end
 end 
 
   emoticon_format
