@@ -42,9 +42,9 @@ def get_english_meaning(file_destination, emoticon)
     if key == "get_meaning"
       hash.each do |k, v|
         if k == emoticon
-          return v 
+          return v
         end
-      end 
+      end
     
 
   end
