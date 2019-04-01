@@ -21,7 +21,8 @@ end
 def get_japanese_emoticon(file_destination, emoticon)
   emoticon_format = load_library(file_destination)
 
-  emoticon_format.find do |"get_emoticon"|
+  emoticon_format.find do |key, hash|
+    
 binding.pry
   end
 
