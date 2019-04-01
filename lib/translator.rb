@@ -30,10 +30,8 @@ def get_japanese_emoticon(file_destination, emoticon)
        end
     end
     end
-end
-
+  end
 return sorry
-
 end
 
 def get_english_meaning
