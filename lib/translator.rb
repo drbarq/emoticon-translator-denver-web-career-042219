@@ -14,6 +14,7 @@ def load_library(file_destination)
   emoticon_raw.each do |meaning, emoticons|
 
     emoticon_format["get_meaning"] = emoticon_format["get_meaning"].merge({emoticons[1] => meaning})
+    emoticon_format["get_emoticon"] = emoticon_format["get_emoticon"].merge({emoticons[0] => emoticons[1]})
 
     binding.pry
 
