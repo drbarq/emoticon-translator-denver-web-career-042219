@@ -11,7 +11,7 @@ def load_library(file_destination)
   #get_meaning = emoticons.keys
   #get_emoticon = emoticons.values
 
-  
+
   # code goes here
 end
 
