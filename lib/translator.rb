@@ -8,10 +8,11 @@ require 'pry'
 def load_library(file_destination)
   emoticon_hash = YAML.load_file(file_destination)
 
-  #get_meaning = emoticons.keys
+  get_meaning = Hash.new
   #get_emoticon = emoticons.values
 
-  emoticon_hash.each do |element, element_2|
+  emoticon_hash.each do |e_meaning, e_j_emoticon|
+
 
     binding.pry
   end
