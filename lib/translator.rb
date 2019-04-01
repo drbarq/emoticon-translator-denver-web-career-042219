@@ -26,7 +26,7 @@ def get_japanese_emoticon(file_destination, emoticon)
     if key == "get_emoticon"
     hash.find do |k, v|
        if k == emoticon
-         return k
+         return v
 
     end
     end
