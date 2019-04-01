@@ -11,6 +11,7 @@ def load_library(file_destination)
 
   emoticon_format = {:get_meaning => {}, :get_emoticon => {}}
 
+  emoticon_format
 
 end
 
