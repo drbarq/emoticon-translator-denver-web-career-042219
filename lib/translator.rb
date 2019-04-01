@@ -27,8 +27,6 @@ def get_japanese_emoticon(file_destination, emoticon)
     hash.each do |k, v|
        if k == emoticon
          return v
-       else
-         return sorry
     end
     end
   end
