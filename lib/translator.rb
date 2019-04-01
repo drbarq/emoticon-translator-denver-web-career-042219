@@ -17,7 +17,7 @@ def load_library(file_destination)
 
   emoticon_format
 end
-=begin
+
 def get_japanese_emoticon(file_destination, emoticon)
   emoticon_format = load_library(file_destination)
   sorry = "Sorry, that emoticon was not found"
