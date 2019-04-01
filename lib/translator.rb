@@ -3,15 +3,13 @@
 require 'yaml'
 require 'pry'
 
-#YAML.load_file('emoticons.yml')
 
- #puts emoticons
 
 def load_library(file_destination)
   YAML.load_file(file_destination)
 
 
-  binding.pry 
+  binding.pry
   # code goes here
 end
 
