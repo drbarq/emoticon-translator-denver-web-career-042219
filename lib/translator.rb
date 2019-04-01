@@ -18,7 +18,7 @@ binding.pry
   #  get_emoticon.merge(e_j_emoticon)
 #  end
 
-  return emoticon_hash
+#  return emoticon_hash
 end
 
 def get_japanese_emoticon
