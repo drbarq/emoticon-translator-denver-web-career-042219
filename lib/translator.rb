@@ -17,7 +17,7 @@ def load_library(file_destination)
     get_emoticon.merge(e_j_emoticon)
   end
 
-  # code goes here
+  return emoticon_hash
 end
 
 def get_japanese_emoticon
