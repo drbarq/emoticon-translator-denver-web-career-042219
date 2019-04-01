@@ -19,7 +19,8 @@ def load_library(file_destination)
 end
 
 def get_japanese_emoticon(file_destination, emoticon)
-  emoticon_raw = YAML.load_file(file_destination)
+  load_library(file_destination)
+
   # code goes here
 end
 
