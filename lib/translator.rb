@@ -3,6 +3,7 @@
 require 'yaml'
 require 'pry'
 
+# this wasnt too bad but need to work on .find and .select etc 
 
 
 def load_library(file_destination)
