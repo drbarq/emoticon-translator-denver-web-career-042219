@@ -43,6 +43,7 @@ def get_japanese_emoticon(file_destination, emoticon)
     key == "get_emoticon"
     hash.find do |k, v|
        hash[k] == emoticon
+       binding.pry
          return v
     end
   end
