@@ -13,7 +13,7 @@ def load_library(file_destination)
 
   emoticon_hash.each do |e_meaning, e_j_emoticon|
     binding.pry
-    get_meaning = e_meaning
+    get_meaning = get_meaning.merge(e_meaning)
     get_emoticon.merge(e_j_emoticon)
   end
 
