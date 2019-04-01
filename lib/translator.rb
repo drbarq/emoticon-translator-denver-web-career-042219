@@ -40,7 +40,7 @@ def get_japanese_emoticon(file_destination, emoticon)
   sorry = "Sorry, that emoticon was not found"
 
   emoticon_format.find do |key, hash| # I dont like these if statments, should be using find
-    emoticon_format[key] == "get_emoticon"
+    emoticon_format.keys == "get_emoticon"
     hash.find do |k, v|
        hash[k] == emoticon
        binding.pry
