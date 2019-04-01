@@ -9,7 +9,7 @@ def load_library(file_destination)
   emoticon_hash = YAML.load_file(file_destination)
 
   get_meaning = {}
-  get_emoticon = Hash.new
+  get_emoticon = {}
 
   emoticon_hash.each do |e_meaning, e_j_emoticon|
     binding.pry
