@@ -35,8 +35,8 @@ return sorry
 end
 
 
-
-
-def get_english_meaning
+def get_english_meaning(file_destination, emoticon)
+  emoticon_format = load_library(file_destination)
+  
   # code goes here
 end
