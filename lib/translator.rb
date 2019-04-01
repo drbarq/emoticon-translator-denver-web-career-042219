@@ -42,7 +42,7 @@ def get_japanese_emoticon(file_destination, emoticon)
   emoticon_format.find do |key, hash| # I dont like these if statments, should be using find
     key == "get_emoticon"
     hash.find do |k, v|
-       k == emoticon
+       hash[k] == emoticon
          return v
     end
   end
