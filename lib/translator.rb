@@ -44,8 +44,6 @@ def get_japanese_emoticon(file_destination, emoticon)
     hash.find do |k, v|
        k == emoticon
          return v
-       end
-    end
     end
   end
 return sorry
