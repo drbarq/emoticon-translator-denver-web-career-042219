@@ -12,10 +12,11 @@ def load_library(file_destination)
   get_emoticon = Hash.new
 
   emoticon_hash.each do |e_meaning, e_j_emoticon|
+    binding.pry
     get_meaning.merge(e_meaning)
     get_emoticon.merge(e_j_emoticon)
-    
-    binding.pry
+
+
 
   end
 
