@@ -14,11 +14,12 @@ def load_library(file_destination)
     emoticon_format["get_meaning"] = emoticon_format["get_meaning"].merge({emoticons[1] => meaning})
     emoticon_format["get_emoticon"] = emoticon_format["get_emoticon"].merge({emoticons[0] => emoticons[1]})
   end
-  
+
   emoticon_format
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_destination, emoticon)
+  emoticon_raw = YAML.load_file(file_destination)
   # code goes here
 end
 
