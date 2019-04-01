@@ -11,7 +11,7 @@ def load_library(file_destination)
   emoticon_format = Hash.new
   emoticon_format = {get_meaning=>{}, get_emoticon =>{}}
 
-
+binding.pry
   #emoticon_hash.each do |e_meaning, e_j_emoticon|
     binding.pry
   #  get_meaning = get_meaning.merge(e_meaning)
