@@ -41,6 +41,8 @@ def get_english_meaning(file_destination, emoticon)
   emoticon_format.each do |key, hash|
     
 
+    binding.pry
+
 
   end
 
