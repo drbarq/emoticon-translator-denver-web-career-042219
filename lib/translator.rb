@@ -6,10 +6,10 @@ require 'pry'
 
 
 def load_library(file_destination)
-  emoticon_hash = YAML.load_file(file_destination)
+  emoticon_raw = YAML.load_file(file_destination)
 
-  get_meaning = {}
-  get_emoticon = {}
+  emoticon_format = Hash.new
+
 
   #emoticon_hash.each do |e_meaning, e_j_emoticon|
   #  binding.pry
