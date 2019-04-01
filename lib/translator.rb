@@ -8,8 +8,8 @@ require 'pry'
 def load_library(file_destination)
   emoticons = YAML.load_file(file_destination)
 
-
-  binding.pry
+  get_meaning = emoticons.keys 
+  get_emoticon = emoticons.values 
   # code goes here
 end
 
