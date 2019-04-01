@@ -12,9 +12,12 @@ def load_library(file_destination)
   #get_emoticon = emoticons.values
 
   emoticon_hash.each do |e_meaning, e_j_emoticon|
+    e_j_emoticon.each do |emoticon_array|
+
 
 
     binding.pry
+  end 
   end
 
   # code goes here
