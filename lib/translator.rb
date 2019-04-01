@@ -12,9 +12,11 @@ def load_library(file_destination)
   emoticon_format = {"get_meaning" => {}, "get_emoticon" => {}}
 
   emoticon_raw.each do |meaning, emoticons|
+    emoticons.each do |japanese, english|
     binding.pry
 
   end 
+end 
 
   emoticon_format
 
