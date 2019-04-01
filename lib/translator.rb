@@ -1,6 +1,7 @@
 # require modules here
 
 require 'yaml'
+require 'pry'
 
 #YAML.load_file('emoticons.yml')
 
@@ -10,7 +11,7 @@ def load_library(file_destination)
   YAML.load_file(file_destination)
 
 
-  
+  binding.pry 
   # code goes here
 end
 
