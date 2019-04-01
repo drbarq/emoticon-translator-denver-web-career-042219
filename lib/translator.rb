@@ -28,8 +28,8 @@ def get_japanese_emoticon(file_destination, emoticon)
        if k == emoticon
          return k
 
-    end 
-    end 
+    end
+    end
   end
 end
 
