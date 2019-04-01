@@ -9,7 +9,7 @@ def load_library(file_destination)
   emoticon_raw = YAML.load_file(file_destination)
 
 
-  emoticon_format = {:get_meaning => {}, :get_emoticon => {}}
+  emoticon_format = {"get_meaning" => {}, "get_emoticon" => {}}
 
   emoticon_format
 
